@@ -8,4 +8,4 @@ clf.fit(X=dataset.data, y=dataset.target)
 ```
 Where *dataset** is a *Scikit-Learn bunch dataset*. The ```dataset.target``` contains the class labels, use the label ```-1``` to specify unlabeled, as per the standard in Scikit-Learn semi-supervised learning implementations.
 
-After creating the classifier instance, and fitting it with data by `clf.fit()`. The fitting function triggers transduction. You can obtain the transductive predictions by referring to the `clf.transduction_`.
+After creating the classifier instance, and fitting it with data by `clf.fit()`. The fitting function triggers transduction. You can obtain the transductive predictions by referring to the `clf.transduction_`
