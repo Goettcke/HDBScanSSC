@@ -1,6 +1,5 @@
 ## Semi Supervised HDBSCAN*
-Here we provide an implementation of the base semi-supervised classification model built around HDBSCAN* as per Gertrudes et al. 2019.
-Notice that this method does not take any parameters. It can be loaded and used as follows:
+Here we provide an implementation of the base semi-supervised classification model built around HDBSCAN* as per Gertrudes et al. 2019. It can be loaded and used as follows:
 ```python
 from ss_hdscan import HDBScanSSC
 clf = HDBSCanSSC(min_cluster_size=5)
